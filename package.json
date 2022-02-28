@@ -16,7 +16,7 @@
     "url": "https://github.com/PfeifferMartin/m-pfeiffer/issues"
   },
   "homepage": "https://github.com/PfeifferMartin/m-pfeiffer#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.0.23"
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
