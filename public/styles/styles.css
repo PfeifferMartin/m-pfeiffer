@@ -1,3 +1,5 @@
+
+
 .banner {
     padding-top: 4rem;
     padding-bottom: 1rem;
@@ -115,4 +117,8 @@ li.timeline-item::before {
 
 .about-section{
     padding: 1rem;
+}
+
+.footer{
+    height: 5rem;
 }
