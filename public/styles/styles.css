@@ -1,19 +1,21 @@
 .banner {
-    background-color: darkgray;
-    margin-top: 3rem;
-    margin-bottom: 0;
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-bottom: 1rem;
 }
 
-.about {
+.container-light {
     margin-bottom: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: lightgray;
+    
 }
 
-
+.container-dark{
+    background-color: darkgray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 /* Timeline holder */
 ul.timeline {
@@ -52,7 +54,7 @@ li.timeline-item {
 /* Timeline item circle marker */
 li.timeline-item::before {
     content: ' ';
-    background: #ddd;
+    background: lightgray;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -77,9 +79,40 @@ li.timeline-item::before {
     height: 30px;
 }
 
-#main-col2 {
-    border-color: black;
-    border-style: solid;
-    border-top-width: 0;
-    border-bottom-width: 0;
+.stars{
+    text-align: right;
+}
+
+.skill-row{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    
+}
+
+.maincol-skill-border{
+    border-left: 3px solid black;
+    border-top: 0px hidden black;
+}
+
+.maincol-skill-padding{
+    padding-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .maincol-skill-border{
+        border-left: 0px hidden black;
+        border-top: 3px solid black;
+    }
+    .maincol-skill-padding{
+        padding-top: 6px;
+    }
+}
+
+.about-section{
+    padding: 1rem;
 }

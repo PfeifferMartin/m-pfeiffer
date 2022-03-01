@@ -14,7 +14,7 @@
 
 <body>
 
-  <div class="text-center banner">
+  <div class="text-center banner container-dark">
     <img src="./img/Pfeiffer_Martin.png" class="" alt="Avatar" />
     <h1 class="display-5 fw-bold">Martin Pfeiffer</h1>
     <div class="col-lg-6 mx-auto">
@@ -33,8 +33,8 @@
     </div>
   </div>
 
-  <div class="about">
-    <h1>Über mich:</h1>
+  <div class="container-light about-section">
+    <h1 class= "text-center">Über mich:</h1>
     <p>
       Als professioneller Business Analyst seit 4 Jahren, habe ich starken Fokus auf Business Application
       Integration.
@@ -44,15 +44,15 @@
       Drittanbietern und den internen Fachbereichen.
       In meiner Freizeit bin ich Hobby-Triathlet. Passend zu meinem Hobby und meiner beruflichen Laufbahn bin ich,
       neben meiner Festanstellung,
-      Softwareentwickler und Inhaber von triathlink.com, einer mobilen App zur Planung und Dokumentation von
+      Softwareentwickler und Inhaber von triathlink.com(derzeit noch in der Testphase), einer mobilen App zur Planung und Dokumentation von
       Triathlon-Wettbewerben.
     </p>
   </div>
 
   <div class="container py-5">
+    <h1 class ="text-center">Berufliche Laufbahn</h1>
     <div class="row">
       <div class="col-lg-7 mx-auto">
-        <h1>Berufliche Laufbahn</h1>
         <ul class="timeline">
           <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
             <div class="timeline-arrow"></div>
@@ -108,67 +108,233 @@
   </div>
 
   <!--Skills-->
-  <div class="about">
-    <h1>Skills</h1>
-    <div id="main-row" class="row">
-      <div id="main-col1" class="col">
+  <div class="container-fluid container-light p">
+    <h1 class = "text-center">Skills</h1>
+    <div id="main-row" class="row m-0">
+      <div id="main-col1" class="col-md m-0">
         <div class="row">
-          <div class="col">
+          <div class="col-auto">
             <h3>Software Development</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <p>html</p>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>HTML</h6>
           </div>
-          <div class="col">
-            <span title="Miserabel" class="fa fa-star checked "></span>
-            <span title="Nicht gut" class="fa fa-star checked "></span>
-            <span title="OK" class="fa fa-star checked"></span>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
             <span title="Sehr gut" class="fa fa-star checked"></span>
             <span title="Hervorragend" class="fa fa-star"></span>
           </div>
         </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>CSS / SCSS</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Javascript</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Typescript</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star checked"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Angular</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Firebase</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Node.js</h6>
+          </div>
+          <div class="col-6  stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Ionic Framework</h6>
+          </div>
+          <div class="col-6  stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star checked"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>PL1 IBM Großrechner</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star checked"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Java</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
       </div>
-      <div id="main-col2" class="col">
+
+      <div id="main-col2" class="col-md m-0 maincol-skill-border maincol-skill-padding">
         <div class="row">
-          <div class="col">
+          <div class="col-auto">
             <h3>Business Analyse</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <p>testBsuiness</p>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Requirement Engineering</h6>
           </div>
-          <div class="col">
-            <span title="Miserabel" class="fa fa-star checked "></span>
-            <span title="Nicht gut" class="fa fa-star checked "></span>
-            <span title="OK" class="fa fa-star checked"></span>
-            <span title="Sehr gut" class="fa fa-star checked"></span>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
             <span title="Hervorragend" class="fa fa-star"></span>
           </div>
         </div>
-      </div>
-      <div id="main-col3" class="col">
-        <div class="row">
-          <div class="col">
-            <h3>Projektmanagement</h3>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Anforderungsmanagement</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <p>testProjekt</p>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>UML – Modellierung</h6>
           </div>
-          <div class="col">
-            <span title="Miserabel" class="fa fa-star checked "></span>
-            <span title="Nicht gut" class="fa fa-star checked "></span>
-            <span title="OK" class="fa fa-star checked"></span>
-            <span title="Sehr gut" class="fa fa-star checked"></span>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Methodik SCRUM/LeSS/Kanban</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>API – Integration</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>Business Application Integration</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
+            <span title="Hervorragend" class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="row skill-row">
+          <div class="col-6">
+            <h6>RESTful API – Design</h6>
+          </div>
+          <div class="col-6 stars">
+            <span title="Miserabel" class="fa fa-star checked"></span>
+            <span title="OK" class="fa fa-star checked "></span>
+            <span title="Gut" class="fa fa-star checked"></span>
+            <span title="Sehr gut" class="fa fa-star"></span>
             <span title="Hervorragend" class="fa fa-star"></span>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class = "container-fluid container-dark footer">
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
